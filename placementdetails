@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+  char name[15];
+  int rollno;
+  int mobile;
+  char mail[15];
+  char per_mail[15];
+  int no_arrears;
+  int gpa_first;
+  scanf("%s",name);
+  scanf("%d",&rollno);
+  scanf("%d",&mobile);
+  scanf("%s",mail);
+  scanf("%s",per_mail);
+  scanf("%d",&no_arrears);
+  scanf("%d",&gpa_firsrt);
+  printf("Name:%s",name);
+  printf("Rollno:%d",rollno);
+  printf("Mobile:%d",mobile);
+  printf("Mail:%s",mail);
+  printf("personal mail:%s",per_mail);
+  printf("No of arrears:%d",no_arrears);
+  printf("GPA first sem:%d",gpa_first);
+}

@@ -22,4 +22,5 @@ int main()
   printf("personal mail:%s",per_mail);
   printf("No of arrears:%d",no_arrears);
   printf("GPA first sem:%d",gpa_first);
+  printf("the program was created sucessfully");
 }
